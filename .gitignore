@@ -1,0 +1,17 @@
+# データ・学習済みモデル（大きい／公式データの再配布になるため含めない）
+data/
+model/
+model_*/
+*.pkl
+
+# 実行時に作られるファイル
+__pycache__/
+*.pyc
+public_url.txt
+予想_*.csv
+予想データ*.html
+*.log
+
+# ローカル設定
+.claude/
+local_settings.py
